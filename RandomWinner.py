@@ -1,4 +1,5 @@
 import streamlit as st
+import langchain
 from langchain_openai import ChatOpenAI
 
 # Set up OpenAI
