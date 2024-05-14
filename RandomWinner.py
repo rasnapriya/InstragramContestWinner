@@ -2,7 +2,7 @@ import streamlit as st
 from langchain import OpenAI
 
 # Set up OpenAI
-openai_key = "YOUR_OPENAI_API_KEY"
+openai_key = "sk-proj-EH5zKkQqNqLPmrksxJbGT3BlbkFJCiWotwUvgGgkhYvrEqas"
 llm = OpenAI(api_key=openai_key, model_name="gpt-3.5-turbo")
 
 # Title
