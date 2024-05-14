@@ -3,7 +3,7 @@ from langchain import OpenAI
 
 # Set up OpenAI
 openai_key = "YOUR_OPENAI_API_KEY"
-llm = ChatOpenAI(api_key=openai_key, model_name="gpt-3.5-turbo")
+llm = OpenAI(api_key=openai_key, model_name="gpt-3.5-turbo")
 
 # Title
 st.title("Instagram Contest Winner Picker")
